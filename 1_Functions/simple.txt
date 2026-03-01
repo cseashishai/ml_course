@@ -1,0 +1,18 @@
+Sample Text File for Python File Reading
+
+This file is intended to be used to test Python functions
+that read text files.
+
+You can try:
+- reading the whole file at once
+- reading line by line
+- counting words or characters
+- searching for specific words
+
+Example words to search for:
+Python
+file
+read
+test
+
+End of file.
