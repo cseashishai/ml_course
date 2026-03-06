@@ -11,10 +11,12 @@ import math
 import sys
 import time
 
+
 # Increse the maximum number to digit for linneur convertation
 sys.set_int_max_str_digits(100000)
 
-##function to compute factorial number is given
+##function to compute factorial number is given is true
+
 
 def factorial_number(number):
     print(f"Computing factorial of {number}")
