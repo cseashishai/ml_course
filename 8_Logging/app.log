@@ -1,0 +1,11 @@
+2026-03-04 22:03:23 - module1 - DEBUG - This module is debugs
+2026-03-04 22:03:23 - Module2 - WARNING - this is a warning msg
+2026-03-04 22:03:23 - Module2 - ERROR - Its may be provides error
+2026-03-04 22:33:41 - AithmaticAPP - DEBUG - Adding : 10+15=25
+2026-03-04 22:33:41 - AithmaticAPP - DEBUG - subtract : 10-10=0
+2026-03-04 22:33:41 - AithmaticAPP - DEBUG - mltiplication: 5*6=30
+2026-03-04 22:33:41 - AithmaticAPP - DEBUG - Adding : 6/6=1.0
+2026-03-04 22:33:44 - AithmaticAPP - DEBUG - Adding : 10+15=25
+2026-03-04 22:33:44 - AithmaticAPP - DEBUG - subtract : 10-10=0
+2026-03-04 22:33:44 - AithmaticAPP - DEBUG - mltiplication: 5*6=30
+2026-03-04 22:33:44 - AithmaticAPP - DEBUG - Adding : 6/6=1.0
