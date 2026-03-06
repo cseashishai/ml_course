@@ -11,7 +11,7 @@ import math
 import sys
 import time
 
-# Increse the maximum number to digit for linner convertation
+# Increse the maximum number to digit for linneur convertation
 sys.set_int_max_str_digits(100000)
 
 ##function to compute factorial number is given
