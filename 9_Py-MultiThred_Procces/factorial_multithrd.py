@@ -37,3 +37,5 @@ if __name__=='__main__':
 
     print(f"result: {results}")
     print(f'time taken :{end_time-start_time} seconds')
+    final_time =time.time() - start_time
+    print(final_time)
