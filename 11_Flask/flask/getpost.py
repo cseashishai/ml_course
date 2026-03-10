@@ -1,7 +1,3 @@
-## bulding url
-# Variable
-## jija 2 url
-
 from flask import Flask,render_template,request
 '''
 rander_tamplate are use to the creat a tamplte folder and inner creat a html
@@ -24,6 +20,12 @@ def index():
 def about():
     return render_template('about.html')
 
+@app.route("/form",methods=['GET','POST']) # here 'POST' is use to send to server request
+def form():
+    if request.method=='POST':
+        name=request.form['name']
+        return f'Hello {name} ! '
+    return render_template('form.html')
 
 @app.route("/submit",methods=['GET','POST']) # here 'POST' is use to send to server request
 def submit():
@@ -32,13 +34,6 @@ def submit():
         return f'Hello {name} ! '
     return render_template('form.html')
 
-# Variable rule
-@app.route('/success/<score>')
-def success(score):
-    return "The marks You got it" + score
-
-
 # Entery point of any.py file
 if __name__=="__main__":
     app.run(debug=True)  
-
